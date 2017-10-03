@@ -1,5 +1,6 @@
 html {
     font-size: 14px;
+    line-height: 1.4;
 }
 
 body{
@@ -10,6 +11,21 @@ img{
     width: 100%;
 }
 
+h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #399bd1;
+    padding-left: 10px;
+}
+
+h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.7);
+}
 
 a{
     font-weight: bold;
@@ -61,5 +77,37 @@ a{
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
+section{
+    padding-bottom: 5.85rem; 
+}
+
+section h2{
+    padding-bottom: 20px;
+}
+
 .imgage-container{}
+
+.pod-cat{
+    color: #399bd1;
+}
+
+footer{
+    background-color: #f3f3f3;
+}
+
+footer h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 5.2rem;
+    color: black;
+}
+
+footer p{
+    width: 42rem;
+    margin: auto;
+}
+
+footer btn{
+    padding-bottom: 5.2rem;
+}
 
