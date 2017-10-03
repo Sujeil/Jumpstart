@@ -1,0 +1,54 @@
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+a{
+    color: #777;
+
+}
+.active a{
+    color: #399bd1;
+}
+
+.jumbotron-bike{
+    background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-8/Jumpstart/resources/images/jumbotron-bike.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.jumbotron h1{
+    padding-top: 11.85rem;
+    font-family: 'Monoton', cursive;
+    font-size: 7.1rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron p{
+    width: 51.3rem;
+    color: white;
+}
+
+.btn{
+    width: 11.4rem;
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    padding: 1.3rem;
+    margin-top: 2.8rem;
+    margin-bottom: 11.85rem;
+}
+
+.btn:hover{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn:active{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+
