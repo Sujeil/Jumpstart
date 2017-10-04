@@ -10,6 +10,11 @@ $(document).ready(function(){
         pauseOnHover: false
     });
     
-    $(".navbar-fixed-top").autoHidingNavbar('showOnBottom', false);
+    var options = {
+        showOnBottom: false,
+        animationDuration: 100
+    };
+
+    $(".navbar-fixed-top").autoHidingNavbar(options);
 });
 
