@@ -5,6 +5,7 @@ html {
 
 body{
     font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
 }
 
 img{
@@ -42,6 +43,11 @@ a{
 .navbar-right{
     margin-right: 10px;
 }
+
+.navbar{
+    transition: top 0.2s ease-in-out;
+}
+
 
 /*Jumbotron section*/
 .jumbotron-bike{
@@ -106,9 +112,14 @@ section h2{
     padding-bottom: 20px;
 }
 
+.feature-project .image-container{
+    overflow: hidden;
+    max-width: 40rem;
+}
 
 .project .image-container{
     overflow: hidden;
+    max-height: 18.5rem;
   }
 
 

@@ -10,27 +10,6 @@ $(document).ready(function(){
         pauseOnHover: false
     });
     
-    var howFarScrolled = 0;
-
-    $(window).scroll(function() {
-        var scrolledFromTop = $(this).scrollTop();
-
-        if (scrolledFromTop - howFarScrolled > 50) {
-            var heightOfNavbar = $('.navbar').css('height');
-
-            $('.navbar').animate({
-                top: '-' + heightOfNavbar 
-                }, 150);
-                howFarScrolled = heightOfNavbar;       
-        } else{
-            $('.navbar').animate({
-                top: 0
-                }, 150);
-                howFarScrolled = heightOfNavbar;
-        }
-      });
-
-     
-      
+    $(".navbar-fixed-top").autoHidingNavbar('showOnBottom', false);
 });
 
